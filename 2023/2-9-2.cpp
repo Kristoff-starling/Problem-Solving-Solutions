@@ -16,7 +16,6 @@ private:
 public:
     Matrix ()
     {
-        N = n * m;
         memset(b, 0, sizeof(b));
     }
     void init_I()
